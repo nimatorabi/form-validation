@@ -5,6 +5,11 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    info: {},
+    loading: true
+  },
+  getters: {
+
   },
   mutations: {
   },
